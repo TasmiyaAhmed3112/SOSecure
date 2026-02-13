@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/contacts"
+        android:title="@string/Contacts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings"
+        android:title="@string/Settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/rec"
+        android:title="@string/Recordings"
+        app:showAsAction="never"/>
+
+</menu>

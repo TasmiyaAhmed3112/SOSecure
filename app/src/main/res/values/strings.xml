@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SOSecure</string>
+    <string name="SOS">SOS</string>
+    <string name="text">"Activate SOS"</string>
+    <string name="Contacts">Contacts</string>
+    <string name="Settings">Settings</string>
+    <string name="Recordings">Recording</string>
+    <string name="Maps">Maps</string>
+    <string name="Contact_Name">Name</string>
+    <string name="Number">Contact_Number</string>
+    <string name="Icon">Contact_icon</string>
+    <string name="Add_contacts">Add_contacts</string>
+    <string name="App_preferences">Add_preferences</string>
+    <string name="Dark_mode">Dark_mode</string>
+    <string name="recording">"Enable Audio Recording"</string>
+    <string name="voice_activation">"Enable Voice Activation"</string>
+    <string name="Storage">Storage</string>
+    <string name="cache">"Clear cache"</string>
+    <string name="Backup">"Backup Data"</string>
+    <string name="Permissions">"Privacy and Permissions"</string>
+    <string name="Manage">"Manage Permissions"</string>
+    <string name="About">About</string>
+    <string name="AppVersion">"App Version 1.0.0"</string>
+    <string name="duration">00:35</string>
+    <string name="date">"DD/MM/YYYY"</string>
+    <string name="img_desc">"play button"</string>
+
+
+
+
+
+</resources>
