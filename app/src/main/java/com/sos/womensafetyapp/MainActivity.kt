@@ -61,7 +61,27 @@ class MainActivity : AppCompatActivity() {
             val isRecordingEnabled = prefs.getBoolean("recording_enabled", false)
 
             if (isRecordingEnabled) {
-                Toast.makeText(this, "Recording Started", Toast.LENGTH_SHORT).show()
+                if(!isRecording){
+                    if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO)
+                        != PackageManager.PERMISSION_GRANTED) {
+
+                        ActivityCompat.requestPermissions(
+                            this,
+                            arrayOf(Manifest.permission.RECORD_AUDIO),
+                            101
+                        )
+                        return@setOnClickListener
+                    }
+
+                    startRecording()
+                    isRecording=true
+                    Toast.makeText(this, "Recording Started", Toast.LENGTH_SHORT).show()
+                }
+                else{
+                    stopRecording()
+                    isRecording=false
+                    Toast.makeText(this, "Recording Stopped", Toast.LENGTH_SHORT).show()
+                }
             } else {
                 Toast.makeText(this, "Enable Recording in Settings", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, SettingsActivity::class.java))
