@@ -20,6 +20,40 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
+
+
+
+        fun startRecording() {
+            outputFilePath =
+                "${cacheDir.absolutePath}/recording${System.currentTimeMillis()}.mp4"
+            MediaRecorder().apply {
+                setAudioSource(MediaRecorder.AudioSource.MIC)
+                setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
+                setAudioEncoder(MediaRecorder.AudioEncoder.AAC)
+                setOutputFile(outputFilePath)
+
+                prepare()
+                start()
+            }.also { mediaRecorder = it }
+        }
+
+            fun stopRecording(){
+                try {
+                    mediaRecorder?.apply {
+                        stop()
+                        release()
+                    }
+                    mediaRecorder=null
+                    Toast.makeText(this, "Recording saved at $outputFilePath", Toast.LENGTH_SHORT).show()
+                }
+                catch (e: Exception){
+                    e.printStackTrace()
+                    Toast.makeText(this, "Stop failed: ${e.message}", Toast.LENGTH_SHORT).show()
+                }
+            }
+
+
+
         val micFab = findViewById<FloatingActionButton>(R.id.mic)
         micFab.setOnClickListener {
 
