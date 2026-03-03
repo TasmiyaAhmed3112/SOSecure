@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         fun startRecording() {
             outputFilePath =
-                "${cacheDir.absolutePath}/recording${System.currentTimeMillis()}.mp4"
+                "${filesDir.absolutePath}/recording${System.currentTimeMillis()}.mp4"
             MediaRecorder().apply {
                 setAudioSource(MediaRecorder.AudioSource.MIC)
                 setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
