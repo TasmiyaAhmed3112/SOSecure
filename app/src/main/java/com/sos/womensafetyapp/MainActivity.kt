@@ -14,6 +14,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 
 class MainActivity : AppCompatActivity() {
+    private var mediaRecorder: MediaRecorder?=null
+    private var outputFilePath: String?=null
+    private var isRecording=false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
