@@ -14,6 +14,28 @@ class RecordingActivity : AppCompatActivity() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
+        // connecting our recordings with recycler view
+        val recyclerView= findViewById<RecyclerView>(R.id.contactRecyclerView)
+        recyclerView.layoutManager= LinearLayoutManager(this)
+        adapter = RecordingAdapter(recordingList)
+        recyclerView.adapter = adapter
+
+        val directory = filesDir
+        val allFiles = directory.listFiles()
+
+        if (allFiles != null) {
+            for (file in allFiles) {
+                if (file.isFile &&
+                    file.name.startsWith("recording_") &&
+                    file.name.endsWith(".mp4")
+                ) {
+                    recordingList.add(file)
+                }
+            }
+        }
+
+        recordingList.sortByDescending { it.lastModified() }
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
     }
