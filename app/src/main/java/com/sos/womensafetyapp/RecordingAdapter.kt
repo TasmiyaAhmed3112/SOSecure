@@ -45,6 +45,53 @@ class RecordingAdapter(
         holder.dateText.text = formattedDate
 
         holder.duration.text = "Audio file"
+        var isPlaying=false
+
+        holder.playButton.setOnClickListener {
+                val filePath = file.absolutePath // get file path
+             // check if any recording is playing
+
+                if (isPlaying) {
+                    mediaPlayer?.pause()
+                    isPlaying = false
+                } else {
+
+                    mediaPlayer?.release()
+
+                    mediaPlayer = MediaPlayer()
+                    mediaPlayer?.setDataSource(file.absolutePath)
+                    mediaPlayer?.prepare()
+                    mediaPlayer?.start()
+
+                    isPlaying = true
+                }
+
+
+
+        }
+
+        holder.itemView.setOnLongClickListener {
+            AlertDialog.Builder(holder.itemView.context)
+                .setTitle("Delete Recording")
+                .setMessage("Are you sure you want to delete this recording?")
+                .setPositiveButton("Delete") { _, _ ->
+
+                    // deletion logic
+                    val file = recordings[position]
+
+                    file.delete()
+
+                    recordings.removeAt(position)
+
+                    notifyItemRemoved(position)
+
+                }
+                .setNegativeButton("Cancel", null)
+                .show()
+            true
+
+
+        }
     }
 
     override fun getItemCount(): Int {
