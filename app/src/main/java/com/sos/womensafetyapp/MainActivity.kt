@@ -24,6 +24,13 @@ class MainActivity : AppCompatActivity() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
+        val sosbtn=findViewById<Button>(R.id.btnSOS)   // Initialize SOS button from layout
+        sosbtn.setOnClickListener {
+            triggerSOS()                                    // Set click listener for SOS button
+                                                           // When pressed it triggers emergency action
+        }
+
+
 
 
         fun startRecording() {
