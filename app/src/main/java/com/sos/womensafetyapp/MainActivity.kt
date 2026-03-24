@@ -110,6 +110,10 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+    // Function to handle SOS trigger
+    fun triggerSOS(){
+        Toast.makeText(this,"SOS triggered!",Toast.LENGTH_SHORT).show()
+    }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
