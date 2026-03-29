@@ -114,6 +114,55 @@ class MainActivity : AppCompatActivity() {
     fun triggerSOS(){
         Toast.makeText(this,"SOS triggered!",Toast.LENGTH_SHORT).show()
     }
+    // Function to fetch emergency contacts from DB
+    fun getEmergencyContacts(): List<String> {
+        val list = mutableListOf<String>()
+
+        val cursor = dbHelper.getAllContacts()
+
+        if (cursor.moveToFirst()) {
+            do {
+                val phone = cursor.getString(cursor.getColumnIndexOrThrow("phone"))
+                list.add(phone)
+            } while (cursor.moveToNext())
+        }
+
+        cursor.close()
+        return list
+    }
+    //CheckingSMS feature
+    fun sendSMS() {
+
+        val contacts = getEmergencyContacts()
+
+        if (contacts.isEmpty()) {
+            Toast.makeText(this, "No contacts found", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        val message = " SOS triggered! I need help."
+
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.SEND_SMS
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                this,
+                arrayOf(Manifest.permission.SEND_SMS),
+                1
+            )
+            return
+        }
+
+        val smsManager = SmsManager.getDefault()
+
+        for (number in contacts) {
+            smsManager.sendTextMessage(number, null, message, null, null)
+        }
+
+        Toast.makeText(this, "SMS Sent!", Toast.LENGTH_SHORT).show()
+    }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
