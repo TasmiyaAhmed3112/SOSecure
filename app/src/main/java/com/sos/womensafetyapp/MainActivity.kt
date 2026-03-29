@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
     }
     // Function to handle SOS trigger
     fun triggerSOS(){
-        Toast.makeText(this,"SOS triggered!",Toast.LENGTH_SHORT).show()
+        sendSMS()
     }
     // Function to fetch emergency contacts from DB
     fun getEmergencyContacts(): List<String> {
