@@ -163,6 +163,36 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "SMS Sent!", Toast.LENGTH_SHORT).show()
     }
+    fun getlocationandsendSOS(){
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+
+            ActivityCompat.requestPermissions(
+                this,
+                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                2
+            )
+            return
+        }
+
+        fusedLocationProviderClient.lastLocation.addOnSuccessListener { location ->
+            if (location!= null){
+                val lat= location.latitude
+                val longi=location.longitude
+
+                android.util.Log.d("Location","Lat:$lat ,Lon:$longi")
+                sendSMS(lat, longi)
+            }
+            else{
+                Toast.makeText(this, "Location not availaible", Toast.LENGTH_SHORT).show()
+            }
+
+        }
+    }
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
