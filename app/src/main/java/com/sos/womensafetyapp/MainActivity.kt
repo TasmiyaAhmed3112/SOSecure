@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
     private var mediaRecorder: MediaRecorder?=null
     private var outputFilePath: String?=null
     private var isRecording=false
+    lateinit var dbHelper: DatabaseHelper
+    lateinit var fusedLocationProviderClient: FusedLocationProviderClient
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
