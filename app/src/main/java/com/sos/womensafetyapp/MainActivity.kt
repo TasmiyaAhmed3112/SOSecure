@@ -166,7 +166,45 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "SMS Sent!", Toast.LENGTH_SHORT).show()
     }
-    fun getlocationandsendSOS(){
+    fun getLocationAndSendSOS() {
+
+        val locationRequest = LocationRequest.create().apply {
+            priority = Priority.PRIORITY_HIGH_ACCURACY
+            interval = 1000
+            fastestInterval = 500
+
+        }
+
+
+        val locationCallback = object : LocationCallback() {
+            override fun onLocationResult(result: LocationResult) {
+
+                val location = result.lastLocation
+
+                if (location != null) {
+
+
+                    val lat = location.latitude
+                    val lon = location.longitude
+                    val accuracy=location.accuracy
+
+
+                   android.util.Log.d("LOCATION", "Lat: $lat, Lon: $lon, Acc: $accuracy")
+
+
+                    fusedLocationProviderClient.removeLocationUpdates(this)
+
+
+                    if (accuracy<=100 ) {
+
+                        fusedLocationProviderClient.removeLocationUpdates(this)
+
+                        sendSMS(lat, lon)
+                    }
+                }
+            }
+        }
+
         if (ActivityCompat.checkSelfPermission(
                 this,
                 Manifest.permission.ACCESS_FINE_LOCATION
