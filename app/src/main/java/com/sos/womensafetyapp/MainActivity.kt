@@ -143,7 +143,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val message = " SOS triggered! I need help. My location:" +
-                " https://www.google.com/maps/search/?api=1&query=\$latitude,\$longitude".trimIndent()
+                " https://www.google.com/maps/search/?api=1&query=$latitude,$longitude".trimIndent()
 
         if (ActivityCompat.checkSelfPermission(
                 this,
