@@ -32,6 +32,17 @@ class MainActivity : AppCompatActivity() {
                                                            // When pressed it triggers emergency action
         }
 
+        dbHelper = DatabaseHelper(this)          // Initialized the DBhelper
+        fusedLocationProviderClient= LocationServices.getFusedLocationProviderClient(this)
+
+        val voicePrefs = getSharedPreferences("app_settings", MODE_PRIVATE)oi
+        val voiceEnabled = voicePrefs.getBoolean("voice_enabled", false)
+        Toast.makeText(this, "Voice Enabled: $voiceEnabled", Toast.LENGTH_SHORT).show()
+
+        if (voiceEnabled) {
+            startVoiceActivation()
+        }
+
 
 
 
