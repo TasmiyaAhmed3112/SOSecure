@@ -16,6 +16,25 @@ class SettingsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_settings)
+
+        val switchDarkMode = findViewById<SwitchMaterial>(R.id.switchDarkMode)
+        val themePrefs = getSharedPreferences("theme_prefs", MODE_PRIVATE)
+
+        val isDark = themePrefs.getBoolean("dark_mode", false)
+
+        switchDarkMode.setOnCheckedChangeListener(null)
+        switchDarkMode.isChecked = isDark
+
+        switchDarkMode.setOnCheckedChangeListener { _, isChecked ->
+
+            AppCompatDelegate.setDefaultNightMode(
+                if (isChecked) AppCompatDelegate.MODE_NIGHT_YES
+                else AppCompatDelegate.MODE_NIGHT_NO
+            )
+
+            themePrefs.edit().putBoolean("dark_mode", isChecked).apply()
+        }
+
         val switchRecording = findViewById<SwitchMaterial>(R.id.switchEnableRecording)
 
 // Create SharedPreferences
