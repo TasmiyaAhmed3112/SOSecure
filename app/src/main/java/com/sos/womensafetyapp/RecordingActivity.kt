@@ -1,12 +1,20 @@
 package com.sos.womensafetyapp
 
 
+
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import java.io.File
+
 
 class RecordingActivity : AppCompatActivity() {
+
+    val recordingList = mutableListOf<File>()
+    var adapter = RecordingAdapter(recordingList)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recording)
@@ -38,6 +46,8 @@ class RecordingActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
+
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

@@ -1,80 +1,121 @@
 package com.sos.womensafetyapp
 
+import android.Manifest
 import android.content.Intent
+import android.content.pm.PackageManager
+
+import android.media.MediaRecorder
 import android.os.Bundle
+
+import android.telephony.SmsManager
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
+
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.appcompat.widget.Toolbar
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationCallback
+import com.google.android.gms.location.LocationResult
+import com.google.android.gms.location.LocationServices
+import com.google.android.gms.location.Priority
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.gms.location.LocationRequest
+
+
+
 
 
 class MainActivity : AppCompatActivity() {
-    private var mediaRecorder: MediaRecorder?=null
-    private var outputFilePath: String?=null
-    private var isRecording=false
+    private var mediaRecorder: MediaRecorder? = null
+    private var outputFilePath: String? = null
+    private var isRecording = false
     lateinit var dbHelper: DatabaseHelper
+    //private var model: Model? = null
+
+    //private var recognizer: Recognizer? = null
+    //private var speechService: SpeechService? = null
+
     lateinit var fusedLocationProviderClient: FusedLocationProviderClient
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        val prefs = getSharedPreferences("theme_prefs", MODE_PRIVATE)
+        val isDark = prefs.getBoolean("dark_mode", false)
+
+        AppCompatDelegate.setDefaultNightMode(
+            if (isDark) AppCompatDelegate.MODE_NIGHT_YES
+            else AppCompatDelegate.MODE_NIGHT_NO
+        )
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        val sosbtn=findViewById<Button>(R.id.btnSOS)   // Initialize SOS button from layout
+        val sosbtn = findViewById<Button>(R.id.btnSOS)   // Initialize SOS button from layout
         sosbtn.setOnClickListener {
             triggerSOS()                                    // Set click listener for SOS button
-                                                           // When pressed it triggers emergency action
+            // When pressed it triggers emergency action
         }
 
         dbHelper = DatabaseHelper(this)          // Initialized the DBhelper
-        fusedLocationProviderClient= LocationServices.getFusedLocationProviderClient(this)
+        fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
 
-        val voicePrefs = getSharedPreferences("app_settings", MODE_PRIVATE)oi
-        val voiceEnabled = voicePrefs.getBoolean("voice_enabled", false)
-        Toast.makeText(this, "Voice Enabled: $voiceEnabled", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, VoiceForegroundService::class.java)
+        ContextCompat.startForegroundService(this, intent)
 
-        if (voiceEnabled) {
-            startVoiceActivation()
-        }
+        //implementing vosk model foe offline wake word detection
+       /* val modelPath = "${filesDir.absolutePath}/vosk-model"
 
+        copyAssetFolder(
+            this,
+            "vosk-model-small-en-us-0.15",
+            modelPath
+        )*/
+
+
+//copyModelAndInit()
 
 
 
         fun startRecording() {
             outputFilePath =
-                "${filesDir.absolutePath}/recording${System.currentTimeMillis()}.mp4"
+                "${filesDir.absolutePath}/recording_${System.currentTimeMillis()}.mp4"
             MediaRecorder().apply {
                 setAudioSource(MediaRecorder.AudioSource.MIC)
                 setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
                 setAudioEncoder(MediaRecorder.AudioEncoder.AAC)
                 setOutputFile(outputFilePath)
 
+
                 prepare()
                 start()
             }.also { mediaRecorder = it }
         }
 
-            fun stopRecording(){
-                try {
-                    mediaRecorder?.apply {
-                        stop()
-                        release()
-                    }
-                    mediaRecorder=null
-                    Toast.makeText(this, "Recording saved at $outputFilePath", Toast.LENGTH_SHORT).show()
+        fun stopRecording() {
+            try {
+                mediaRecorder?.apply {
+                    stop()
+                    release()
                 }
-                catch (e: Exception){
-                    e.printStackTrace()
-                    Toast.makeText(this, "Stop failed: ${e.message}", Toast.LENGTH_SHORT).show()
-                }
+                mediaRecorder = null
+                Toast.makeText(this, "Recording saved at $outputFilePath", Toast.LENGTH_SHORT)
+                    .show()
+            } catch (e: Exception) {
+                e.printStackTrace()
+                Toast.makeText(this, "Stop failed: ${e.message}", Toast.LENGTH_SHORT).show()
             }
-
+        }
 
 
         val micFab = findViewById<FloatingActionButton>(R.id.mic)
@@ -84,9 +125,10 @@ class MainActivity : AppCompatActivity() {
             val isRecordingEnabled = prefs.getBoolean("recording_enabled", false)
 
             if (isRecordingEnabled) {
-                if(!isRecording){
+                if (!isRecording) {
                     if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO)
-                        != PackageManager.PERMISSION_GRANTED) {
+                        != PackageManager.PERMISSION_GRANTED
+                    ) {
 
                         ActivityCompat.requestPermissions(
                             this,
@@ -97,20 +139,19 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     startRecording()
-                    isRecording=true
+                    isRecording = true
                     Toast.makeText(this, "Recording Started", Toast.LENGTH_SHORT).show()
-                }
-                else{
+                } else {
                     stopRecording()
-                    isRecording=false
+                    isRecording = false
                     Toast.makeText(this, "Recording Stopped", Toast.LENGTH_SHORT).show()
                 }
             } else {
                 Toast.makeText(this, "Enable Recording in Settings", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, SettingsActivity::class.java))
             }
-        }
 
+        }
 
 
 
@@ -123,10 +164,15 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+
     // Function to handle SOS trigger
-    fun triggerSOS(){
-        sendSMS()
+    fun triggerSOS() {
+        getLocationAndSendSOS()
+        /*val intent = Intent(this, VoiceForegroundService::class.java)
+        intent.action = "TRIGGER_SOS"
+        ContextCompat.startForegroundService(this, intent)*/
     }
+
     // Function to fetch emergency contacts from DB
     fun getEmergencyContacts(): List<String> {
         val list = mutableListOf<String>()
@@ -143,8 +189,9 @@ class MainActivity : AppCompatActivity() {
         cursor.close()
         return list
     }
+
     //CheckingSMS feature
-    fun sendSMS() {
+    fun sendSMS(latitude: Double, longitude: Double) {
 
         val contacts = getEmergencyContacts()
 
@@ -177,6 +224,7 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "SMS Sent!", Toast.LENGTH_SHORT).show()
     }
+
     fun getLocationAndSendSOS() {
 
         val locationRequest = LocationRequest.create().apply {
@@ -197,16 +245,16 @@ class MainActivity : AppCompatActivity() {
 
                     val lat = location.latitude
                     val lon = location.longitude
-                    val accuracy=location.accuracy
+                    val accuracy = location.accuracy
 
 
-                   android.util.Log.d("LOCATION", "Lat: $lat, Lon: $lon, Acc: $accuracy")
+                    android.util.Log.d("LOCATION", "Lat: $lat, Lon: $lon, Acc: $accuracy")
 
 
                     fusedLocationProviderClient.removeLocationUpdates(this)
 
 
-                    if (accuracy<=100 ) {
+                    if (accuracy <= 100) {
 
                         fusedLocationProviderClient.removeLocationUpdates(this)
 
@@ -221,7 +269,6 @@ class MainActivity : AppCompatActivity() {
                 Manifest.permission.ACCESS_FINE_LOCATION
             ) != PackageManager.PERMISSION_GRANTED
         ) {
-
             ActivityCompat.requestPermissions(
                 this,
                 arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
@@ -230,19 +277,11 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-        fusedLocationProviderClient.lastLocation.addOnSuccessListener { location ->
-            if (location!= null){
-                val lat= location.latitude
-                val longi=location.longitude
-
-                android.util.Log.d("Location","Lat:$lat ,Lon:$longi")
-                sendSMS(lat, longi)
-            }
-            else{
-                Toast.makeText(this, "Location not availaible", Toast.LENGTH_SHORT).show()
-            }
-
-        }
+        fusedLocationProviderClient.requestLocationUpdates(
+            locationRequest,
+            locationCallback,
+            mainLooper
+        )
     }
 
 
@@ -253,16 +292,18 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.contacts-> {
+            R.id.contacts -> {
                 val intent = Intent(this, ContactsActivity::class.java)
                 startActivity(intent)
                 true
             }
+
             R.id.settings -> {
                 val intent = Intent(this, SettingsActivity::class.java)
                 startActivity(intent)
                 true
             }
+
             R.id.rec -> {
                 val intent = Intent(this, RecordingActivity::class.java)
                 startActivity(intent)
@@ -273,58 +314,59 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun startVoiceActivation() {
 
-        Toast.makeText(this, "Voice Started", Toast.LENGTH_SHORT).show()
-        Log.d("VOICE", "startVoiceActivation called")
+    /*private fun copyModelAndInit() {
+        Thread {
+            val modelPath = "${filesDir.absolutePath}/vosk-model"
 
-        speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this)
+            copyAssetFolder(
+                this,
+                "vosk-model-small-en-us-0.15",
+                modelPath
+            )
 
-        speechIntent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
-            putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
-                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-            putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault())
-        }
+            model = Model(modelPath)
 
-        speechRecognizer.setRecognitionListener(object : RecognitionListener {
+            runOnUiThread {
+                Toast.makeText(this, "Vosk Ready - Listening started", Toast.LENGTH_SHORT).show()
+                startListening()
+            }
 
-            override fun onResults(results: Bundle?) {
+        }.start()
+    }
 
-                val matches = results?.getStringArrayList(
-                    SpeechRecognizer.RESULTS_RECOGNITION
-                )
+    private fun startListening() {
 
-                matches?.forEach { text ->
-                    val input = text.lowercase()
+        val sampleRate = 16000.0f
 
-                    if (input.contains("help") || input.contains("emergency")) {
-                        triggerSOS()
+        recognizer = Recognizer(model, sampleRate)
+
+        speechService = SpeechService(recognizer, sampleRate)
+
+        speechService?.startListening(object : RecognitionListener {
+
+            override fun onPartialResult(hypothesis: String?) {
+                // optional live text
+            }
+
+            override fun onResult(hypothesis: String?) {
+                if (hypothesis != null) {
+                    if (hypothesis.contains("help", true) ||
+                        hypothesis.contains("sos", true)
+                    ) {
+                        runOnUiThread {
+                            Toast.makeText(this@MainActivity, "SOS DETECTED!", Toast.LENGTH_LONG).show()
+
+                        }
                     }
                 }
-
-                speechRecognizer.startListening(speechIntent)
             }
 
-            override fun onError(error: Int) {
-                speechRecognizer.startListening(speechIntent)
-            }
-
-            override fun onEndOfSpeech() {
-                speechRecognizer.startListening(speechIntent)
-            }
-
-            override fun onReadyForSpeech(params: Bundle?) {
-                Log.d("VOICE", "READY FOR SPEECH")
-            }
-            override fun onBeginningOfSpeech() {}
-            override fun onRmsChanged(rmsdB: Float) {}
-            override fun onBufferReceived(buffer: ByteArray?) {}
-            override fun onPartialResults(partialResults: Bundle?) {}
-            override fun onEvent(eventType: Int, params: Bundle?) {}
+            override fun onFinalResult(hypothesis: String?) {}
+            override fun onError(e: Exception?) {}
+            override fun onTimeout() {}
         })
-
-        speechRecognizer.startListening(speechIntent)
-    }
+    }*/
 
 
 }

@@ -1,5 +1,6 @@
 package com.sos.womensafetyapp
 
+import android.media.MediaPlayer
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +12,7 @@ import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
+import android.app.AlertDialog
 
 
 
@@ -20,11 +22,13 @@ import java.util.Locale
 class RecordingAdapter(
     private val recordings: List<File>
 ) : RecyclerView.Adapter<RecordingAdapter.ViewHolder>(){
+
     class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         val nameText= itemView.findViewById<TextInputEditText>(R.id.text_rec)
         val duration=itemView.findViewById<TextView>(R.id.Duration)
         val dateText=itemView.findViewById<TextView>(R.id.date)
         val playButton=itemView.findViewById<ImageView>(R.id.play_img)
+
 
  }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -33,6 +37,7 @@ class RecordingAdapter(
         return ViewHolder(view) as ViewHolder
 
     }
+    private var mediaPlayer: MediaPlayer? = null
 
     override fun onBindViewHolder(holder:ViewHolder, position: Int) {
         val file =recordings[position]
@@ -98,5 +103,7 @@ class RecordingAdapter(
         return recordings.size
     }
 }
+
+private fun List<File>.removeAt(position: Int) {}
 
 

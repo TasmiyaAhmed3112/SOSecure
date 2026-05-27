@@ -1,5 +1,6 @@
 package com.sos.womensafetyapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +9,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.content.SharedPreferences
+import android.util.Log
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.content.ContextCompat
 import com.google.android.material.switchmaterial.SwitchMaterial
 
 
@@ -19,6 +24,7 @@ class SettingsActivity : AppCompatActivity() {
 
         val switchDarkMode = findViewById<SwitchMaterial>(R.id.switchDarkMode)
         val themePrefs = getSharedPreferences("theme_prefs", MODE_PRIVATE)
+
 
         val isDark = themePrefs.getBoolean("dark_mode", false)
 
