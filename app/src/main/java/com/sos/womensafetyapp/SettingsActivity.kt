@@ -49,6 +49,30 @@ class SettingsActivity : AppCompatActivity() {
             prefs.edit().putBoolean("recording_enabled", isChecked).apply()
         }
 
+        val switchVoice = findViewById<SwitchMaterial>(R.id.switchVoiceActivation)
+
+// Load saved state
+        val isVoiceEnabled = prefs.getBoolean("voice_enabled", false)
+        switchVoice.isChecked = isVoiceEnabled
+
+        Log.d("VOICE_PREF", "Loaded: $isVoiceEnabled")
+
+// Save state
+        switchVoice.setOnCheckedChangeListener { _, isChecked ->
+
+            prefs.edit().putBoolean("voice_enabled", isChecked).apply()
+
+            val intent = Intent(this, VoiceForegroundService::class.java)
+
+            if (isChecked) {
+                ContextCompat.startForegroundService(this, intent)
+                Toast.makeText(this, "Voice Enabled", Toast.LENGTH_SHORT).show()
+            } else {
+                stopService(intent)
+                Toast.makeText(this, "Voice Disabled", Toast.LENGTH_SHORT).show()
+            }
+        }
+
 
         val toolbar = findViewById<Toolbar>(R.id.settingsToolbar)
         setSupportActionBar(toolbar)
