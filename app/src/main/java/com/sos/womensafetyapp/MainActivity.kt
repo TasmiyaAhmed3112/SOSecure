@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
     private var outputFilePath: String? = null
     private var isRecording = false
     lateinit var dbHelper: DatabaseHelper
+
     //private var model: Model? = null
 
     //private var recognizer: Recognizer? = null
@@ -151,6 +152,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, SettingsActivity::class.java))
             }
 
+        }
+
+        val fabNavigate = findViewById<FloatingActionButton>(R.id.fabNavigate)
+
+        fabNavigate.setOnClickListener {
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
         }
 
 
@@ -367,6 +375,11 @@ class MainActivity : AppCompatActivity() {
             override fun onTimeout() {}
         })
     }*/
+
+
+
+
+
 
 
 }

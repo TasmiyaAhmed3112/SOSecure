@@ -1,0 +1,4522 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-31T09:12:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/308931002",
+        "amenity": "police",
+        "created_by": "Potlatch 0.10f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3375263,
+          28.5779649
+        ]
+      },
+      "id": "node/308931002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/332066848",
+        "amenity": "police",
+        "name": "Police Station Sadar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0375117,
+          28.4291623
+        ]
+      },
+      "id": "node/332066848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/332066849",
+        "amenity": "police",
+        "name": "Sadar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0360665,
+          28.4640597
+        ]
+      },
+      "id": "node/332066849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/332066852",
+        "amenity": "police",
+        "check_date": "2025-02-23",
+        "name": "Sushant Lok Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0728175,
+          28.462993
+        ]
+      },
+      "id": "node/332066852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/332066861",
+        "amenity": "police",
+        "name": "Sector 18 Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0660949,
+          28.4863642
+        ]
+      },
+      "id": "node/332066861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/477905051",
+        "amenity": "police",
+        "name": "Police Station Bhondsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0681342,
+          28.3445779
+        ]
+      },
+      "id": "node/477905051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/484649692",
+        "amenity": "police",
+        "is_in": "Sector - 56",
+        "name": "Police Station Sector 56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1031506,
+          28.4248272
+        ]
+      },
+      "id": "node/484649692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/541319144",
+        "amenity": "police",
+        "name": "Police Aid Post dharuheda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7947172,
+          28.21575
+        ]
+      },
+      "id": "node/541319144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/571593163",
+        "amenity": "police",
+        "name": "Shipra Police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3782631,
+          28.6378072
+        ]
+      },
+      "id": "node/571593163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/762031782",
+        "amenity": "police",
+        "name": "Bawana Police station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0256424,
+          28.8055119
+        ]
+      },
+      "id": "node/762031782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1014270982",
+        "amenity": "police",
+        "name": "Shalimar Bagh Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1571367,
+          28.7170924
+        ]
+      },
+      "id": "node/1014270982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1157203547",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1810077,
+          28.6345193
+        ]
+      },
+      "id": "node/1157203547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1179280491",
+        "amenity": "police",
+        "name": "Vikas Puri",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0682683,
+          28.6301441
+        ]
+      },
+      "id": "node/1179280491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1355995275",
+        "amenity": "police",
+        "name": "Police Post Kaushambi, Police Station Indirapuram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3270651,
+          28.6421878
+        ]
+      },
+      "id": "node/1355995275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1402109581",
+        "amenity": "police",
+        "name": "Ashok Vihar Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "source": "local"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1739049,
+          28.6925224
+        ]
+      },
+      "id": "node/1402109581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1575177481",
+        "amenity": "police",
+        "name": "Police chowki NIT 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2900781,
+          28.3959429
+        ]
+      },
+      "id": "node/1575177481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1578318239",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2971327,
+          28.4309808
+        ]
+      },
+      "id": "node/1578318239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1669045647",
+        "amenity": "police",
+        "name": "Jeoni Mandi Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0248862,
+          27.1970981
+        ]
+      },
+      "id": "node/1669045647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1764309442",
+        "amenity": "police",
+        "designation": "Najafgarh Police Station",
+        "name": "Najafgarh Police Thana",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9828316,
+          28.6098145
+        ]
+      },
+      "id": "node/1764309442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1776071592",
+        "amenity": "police",
+        "name": "Police Chowki",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "source": "local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9867433,
+          28.6126106
+        ]
+      },
+      "id": "node/1776071592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1810069059",
+        "amenity": "police",
+        "name": "Jaffar Pur Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9151778,
+          28.5958543
+        ]
+      },
+      "id": "node/1810069059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2004001910",
+        "amenity": "police",
+        "fax": "+91-11-2669-1863",
+        "name": "Police Station Malviya Nagar",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "phone": "+91-11-2669-1861;+91-11-2669-1862"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2045562,
+          28.5306718
+        ]
+      },
+      "id": "node/2004001910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2136306864",
+        "addr:street": "Pankha Road",
+        "amenity": "police",
+        "name": "Hari Nagar Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0997911,
+          28.6097133
+        ]
+      },
+      "id": "node/2136306864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2165822105",
+        "amenity": "police",
+        "name": "Prasad Nagar Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.180705,
+          28.6478735
+        ]
+      },
+      "id": "node/2165822105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2408446621",
+        "amenity": "police",
+        "name": "Dwarka Ploce Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0584523,
+          28.5649687
+        ]
+      },
+      "id": "node/2408446621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2443108933",
+        "amenity": "police",
+        "name": "Police Booth",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1336893,
+          28.6702484
+        ]
+      },
+      "id": "node/2443108933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2445916782",
+        "amenity": "police",
+        "name": "Punjabi Bagh Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1322843,
+          28.6741463
+        ]
+      },
+      "id": "node/2445916782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446007658",
+        "amenity": "police",
+        "name": "Rajendra Nagar Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1826937,
+          28.634698
+        ]
+      },
+      "id": "node/2446007658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446008279",
+        "amenity": "police",
+        "name": "Police Residential Complex",
+        "name:ur": "پولیس رہائشی کمپلیکس",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1837505,
+          28.6349617
+        ]
+      },
+      "id": "node/2446008279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2465428862",
+        "amenity": "police",
+        "name": "New Ashok Nagar Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3112386,
+          28.5983359
+        ]
+      },
+      "id": "node/2465428862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2529065771",
+        "amenity": "police",
+        "name": "Baba Haridas Nagar Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "source": "Survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9666822,
+          28.6289362
+        ]
+      },
+      "id": "node/2529065771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2677421751",
+        "amenity": "police",
+        "name": "Subroto Park Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1651188,
+          28.5942138
+        ]
+      },
+      "id": "node/2677421751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2708360300",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1219621,
+          28.6499571
+        ]
+      },
+      "id": "node/2708360300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2722843601",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2432349,
+          28.6499319
+        ]
+      },
+      "id": "node/2722843601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2725295485",
+        "amenity": "police",
+        "name": "Police Station Gandhi Circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8129569,
+          26.8840927
+        ]
+      },
+      "id": "node/2725295485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2895075014",
+        "amenity": "police",
+        "name": "City Police Station",
+        "name:ur": "سٹی تھانہ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6391854,
+          25.3428267
+        ]
+      },
+      "id": "node/2895075014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2907865250",
+        "addr:city": "Bhilwara",
+        "addr:postcode": "311001",
+        "addr:street": "collectorate Road, Bhilwara",
+        "amenity": "police",
+        "name": "SP - Superintendent of Police Office",
+        "name:hi": "पुलिस अधीक्षक कार्यालय, भीलवाड़ा",
+        "operator": "Rajasthan Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6316467,
+          25.3509519
+        ]
+      },
+      "id": "node/2907865250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3077898238",
+        "amenity": "police",
+        "name": "Rakabganj Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0120081,
+          27.1701129
+        ]
+      },
+      "id": "node/3077898238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3079639416",
+        "amenity": "police",
+        "name": "police chauki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9971241,
+          27.1809568
+        ]
+      },
+      "id": "node/3079639416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3081150630",
+        "amenity": "police",
+        "name": "police choki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9840132,
+          27.1702945
+        ]
+      },
+      "id": "node/3081150630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3085729966",
+        "amenity": "police",
+        "check_date": "2025-03-09",
+        "name": "police thana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7608517,
+          27.1764358
+        ]
+      },
+      "id": "node/3085729966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3092077582",
+        "amenity": "police",
+        "name": "Police Chowki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0060909,
+          27.1860952
+        ]
+      },
+      "id": "node/3092077582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3092703579",
+        "amenity": "police",
+        "name": "Police Chowki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9621058,
+          27.1888197
+        ]
+      },
+      "id": "node/3092703579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3093592631",
+        "amenity": "police",
+        "name": "police thana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8192744,
+          26.942729
+        ]
+      },
+      "id": "node/3093592631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3103369566",
+        "amenity": "police",
+        "name": "Police Choki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0149181,
+          27.1868116
+        ]
+      },
+      "id": "node/3103369566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3245667203",
+        "amenity": "police",
+        "name": "Lahori Gate Police Station",
+        "name:ur": "تھانہ لاہوری گیٹ",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2190161,
+          28.6558358
+        ]
+      },
+      "id": "node/3245667203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3245675051",
+        "amenity": "police",
+        "name": "Police Station Sahibabad",
+        "operator": "UP Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3712722,
+          28.678628
+        ]
+      },
+      "id": "node/3245675051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3245702263",
+        "addr:postcode": "110006",
+        "amenity": "police",
+        "name": "Kotwali Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2310844,
+          28.6585978
+        ]
+      },
+      "id": "node/3245702263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3245702592",
+        "addr:postcode": "110006",
+        "amenity": "police",
+        "name": "Jama Masjid Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2337052,
+          28.6524641
+        ]
+      },
+      "id": "node/3245702592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3248671700",
+        "amenity": "police",
+        "name": "Rajendra Nagar Police Chowki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3578938,
+          28.6778133
+        ]
+      },
+      "id": "node/3248671700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3249140375",
+        "addr:postcode": "110006",
+        "amenity": "police",
+        "name": "Cycle Market Police Post",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2347384,
+          28.6559206
+        ]
+      },
+      "id": "node/3249140375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3386751338",
+        "amenity": "police",
+        "name": "Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2543284,
+          28.5246843
+        ]
+      },
+      "id": "node/3386751338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3621238654",
+        "amenity": "police",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.490441,
+          28.4396445
+        ]
+      },
+      "id": "node/3621238654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3759840904",
+        "amenity": "police",
+        "name": "THANA NAI KI MANDI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0020282,
+          27.1807733
+        ]
+      },
+      "id": "node/3759840904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780522467",
+        "amenity": "police",
+        "name": "new agra police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0051948,
+          27.2112779
+        ]
+      },
+      "id": "node/3780522467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4052699977",
+        "amenity": "police",
+        "check_date": "2026-03-20",
+        "name": "police station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.195299,
+          28.5820097
+        ]
+      },
+      "id": "node/4052699977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4141428087",
+        "amenity": "police",
+        "name": "Police Station Murlipura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7647832,
+          26.970402
+        ]
+      },
+      "id": "node/4141428087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351197225",
+        "addr:postcode": "122413",
+        "addr:street": "Amer Road",
+        "amenity": "police",
+        "name": "Police Station Bilaspur",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8586133,
+          28.2882559
+        ]
+      },
+      "id": "node/4351197225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4582470991",
+        "amenity": "police",
+        "name:en": "RPF Chauki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9902772,
+          27.1576334
+        ]
+      },
+      "id": "node/4582470991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4618648390",
+        "amenity": "police",
+        "name": "Police Post Sanjay Colony",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "phone": "+91-11-2665-2562;+91-11-2665-9611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2261104,
+          28.4300428
+        ]
+      },
+      "id": "node/4618648390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4618648496",
+        "amenity": "police",
+        "name": "Dhatir police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2231949,
+          28.1984677
+        ]
+      },
+      "id": "node/4618648496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4674573194",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.281078,
+          27.271693
+        ]
+      },
+      "id": "node/4674573194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4733479622",
+        "addr:street": "Amargarh",
+        "amenity": "police",
+        "name:en": "Amargarh chouki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6562052,
+          26.4267771
+        ]
+      },
+      "id": "node/4733479622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4733967121",
+        "amenity": "police",
+        "historic": "monument",
+        "name:en": "City Palace,Karauli,Rajasthan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.029795,
+          26.4963367
+        ]
+      },
+      "id": "node/4733967121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4735497521",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0298117,
+          26.727075
+        ]
+      },
+      "id": "node/4735497521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4847265399",
+        "addr:city": "Gurgaon",
+        "addr:postcode": "122001",
+        "addr:street": "New Colony",
+        "amenity": "police",
+        "name": "Police Staion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0172873,
+          28.4651874
+        ]
+      },
+      "id": "node/4847265399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4922113469",
+        "amenity": "police",
+        "name": "SAF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9916464,
+          26.4800489
+        ]
+      },
+      "id": "node/4922113469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5274759823",
+        "amenity": "police",
+        "name": "Kotwali Police Station",
+        "name:en": "Kotwali Police Station",
+        "name:hi": "कोतवाली पुलिस स्टेशन"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.9663015,
+          28.2892906
+        ]
+      },
+      "id": "node/5274759823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5419777007",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2217498,
+          28.6891306
+        ]
+      },
+      "id": "node/5419777007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5473212045",
+        "amenity": "police",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7950769,
+          26.9177909
+        ]
+      },
+      "id": "node/5473212045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5531803884",
+        "amenity": "police",
+        "name": "Police station Surya nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.331314,
+          28.66921
+        ]
+      },
+      "id": "node/5531803884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5829403386",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4340032,
+          28.6301852
+        ]
+      },
+      "id": "node/5829403386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5906571700",
+        "amenity": "police",
+        "name": "Police Station Hazrat Nizamudin Railway station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2536138,
+          28.5879796
+        ]
+      },
+      "id": "node/5906571700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5978068724",
+        "amenity": "police",
+        "name": "Police Station Karol Bagh",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "phone": "+91-11-2872-6870;+91-11-2872-1115"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1930248,
+          28.652398
+        ]
+      },
+      "id": "node/5978068724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6071116386",
+        "amenity": "police",
+        "name": "Railway Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5808731,
+          28.8903772
+        ]
+      },
+      "id": "node/6071116386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6075689269",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5860752,
+          28.8801395
+        ]
+      },
+      "id": "node/6075689269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6134779778",
+        "amenity": "police",
+        "name": "Police Station New Delhi Railway Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2189266,
+          28.6437003
+        ]
+      },
+      "id": "node/6134779778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6148020512",
+        "amenity": "police",
+        "name": "Police Post",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2222854,
+          28.635912
+        ]
+      },
+      "id": "node/6148020512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6223284349",
+        "amenity": "police",
+        "name": "Police Post Majnu ka Tila",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2270376,
+          28.6965167
+        ]
+      },
+      "id": "node/6223284349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274319087",
+        "addr:postcode": "110044",
+        "amenity": "police",
+        "name": "Police Station Pul Prahladpur",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2907092,
+          28.5019105
+        ]
+      },
+      "id": "node/6274319087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6385735816",
+        "amenity": "police",
+        "name": "Police Station Khyala",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0963462,
+          28.6517663
+        ]
+      },
+      "id": "node/6385735816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6395824654",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3171717,
+          28.613379
+        ]
+      },
+      "id": "node/6395824654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6403596410",
+        "amenity": "police",
+        "name": "Durga Puri Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2915327,
+          28.6894132
+        ]
+      },
+      "id": "node/6403596410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6404449719",
+        "amenity": "police",
+        "name": "Police Post PSRI Hospital",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2252646,
+          28.5318943
+        ]
+      },
+      "id": "node/6404449719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6412016786",
+        "amenity": "police",
+        "name": "Police Chowki",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2920281,
+          28.6862014
+        ]
+      },
+      "id": "node/6412016786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6466294306",
+        "addr:city": "New Delhi",
+        "addr:district": "Dwarka District",
+        "addr:housenumber": "Dabri More",
+        "addr:postcode": "110045",
+        "addr:street": "Sitapuri, Dabri",
+        "amenity": "police",
+        "name": "Police Station Dabri",
+        "name:hi": "थाना दाबड़ी",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0860753,
+          28.6131514
+        ]
+      },
+      "id": "node/6466294306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6654844510",
+        "addr:city": "Sarwar",
+        "addr:postcode": "305403",
+        "amenity": "police",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.0224907,
+          26.0636175
+        ]
+      },
+      "id": "node/6654844510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6825092921",
+        "amenity": "police",
+        "name": "Police Station Old Delhi Railway Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2293263,
+          28.6603874
+        ]
+      },
+      "id": "node/6825092921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6955659885",
+        "amenity": "police",
+        "name:en": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8176035,
+          26.9320929
+        ]
+      },
+      "id": "node/6955659885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6968230689",
+        "addr:street": "Vaishali Marg",
+        "amenity": "police",
+        "name": "Police Station Vaishali Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7355845,
+          26.9153921
+        ]
+      },
+      "id": "node/6968230689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6968230696",
+        "amenity": "police",
+        "name": "Sodala Thana",
+        "name:en": "Sodala Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7763672,
+          26.9019038
+        ]
+      },
+      "id": "node/6968230696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6976031005",
+        "amenity": "police",
+        "name": "Chitrakoot police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7342969,
+          26.8994432
+        ]
+      },
+      "id": "node/6976031005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7041224033",
+        "amenity": "police",
+        "name": "Karni Vihar Police Station Jaipur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7331235,
+          26.8967564
+        ]
+      },
+      "id": "node/7041224033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7066242648",
+        "amenity": "police",
+        "name": "Jatwara highway police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2139782,
+          26.8779888
+        ]
+      },
+      "id": "node/7066242648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7078171213",
+        "amenity": "police",
+        "name": "Mathura Gate Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5029671,
+          27.2143147
+        ]
+      },
+      "id": "node/7078171213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7099818528",
+        "amenity": "police",
+        "name": "Police Station Badarpur",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3037682,
+          28.4937527
+        ]
+      },
+      "id": "node/7099818528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7132999875",
+        "amenity": "police",
+        "name": "Kirti Nagar Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.135379,
+          28.6402677
+        ]
+      },
+      "id": "node/7132999875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7698410001",
+        "addr:district": "Jaipur",
+        "addr:postcode": "302015",
+        "addr:state": "Rajasthan",
+        "amenity": "police",
+        "name": "rajasthan police headquaters",
+        "operator": "rajasthan police",
+        "source": "Local Knowledge;close living"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7988001,
+          26.8854969
+        ]
+      },
+      "id": "node/7698410001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041563560",
+        "amenity": "police",
+        "name": "Harmara Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7690247,
+          27.0131737
+        ]
+      },
+      "id": "node/8041563560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8043798023",
+        "addr:street": "Amer Road",
+        "amenity": "police",
+        "name": "Police Station Subhash Chowk , Jaipur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8324821,
+          26.9290701
+        ]
+      },
+      "id": "node/8043798023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8044577607",
+        "addr:city": "Gurugram",
+        "addr:housenumber": "Bajghera road, Dwarka Expressway",
+        "addr:street": "Sector 113",
+        "amenity": "police",
+        "name": "Bhajgera Police Station",
+        "operator": "Haryana Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0235407,
+          28.5205858
+        ]
+      },
+      "id": "node/8044577607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8125618832",
+        "amenity": "police",
+        "name": "Police Station Adarsh Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8348836,
+          26.9024266
+        ]
+      },
+      "id": "node/8125618832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8133215834",
+        "amenity": "police",
+        "name": "POLICE STATION SOJAT ROAD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7511078,
+          25.8653469
+        ]
+      },
+      "id": "node/8133215834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8133360317",
+        "amenity": "police",
+        "name": "District Jail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.3793601,
+          28.1145983
+        ]
+      },
+      "id": "node/8133360317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8136989285",
+        "amenity": "police",
+        "name": "police line"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.3718949,
+          28.1006189
+        ]
+      },
+      "id": "node/8136989285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8137003293",
+        "amenity": "police",
+        "name": "police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.3734764,
+          28.0998384
+        ]
+      },
+      "id": "node/8137003293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8401532287",
+        "amenity": "police",
+        "name": "Vivek Vihar",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3062943,
+          28.667016
+        ]
+      },
+      "id": "node/8401532287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8440810076",
+        "addr:city": "Narnaul",
+        "addr:postcode": "123001",
+        "addr:street": "NH 11 , Sighana Road",
+        "amenity": "police",
+        "name": "Firing Range Narnaul",
+        "operator": "Narnaul Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0755598,
+          28.0710058
+        ]
+      },
+      "id": "node/8440810076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8460388202",
+        "addr:city": "Narnaul",
+        "addr:postcode": "123001",
+        "addr:street": "Police Line Road, Police Line",
+        "amenity": "police",
+        "name": "Women Police Station",
+        "operator": "Narnaul Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1119723,
+          28.0474527
+        ]
+      },
+      "id": "node/8460388202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8573825815",
+        "amenity": "police",
+        "name": "HUDA Police station Sector 13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.139526,
+          28.8145831
+        ]
+      },
+      "id": "node/8573825815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8573853021",
+        "amenity": "police",
+        "name": "SP Office Bhiwani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1415567,
+          28.805786
+        ]
+      },
+      "id": "node/8573853021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8665688602",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2721284,
+          27.1503998
+        ]
+      },
+      "id": "node/8665688602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8836385684",
+        "amenity": "police",
+        "name": "Police Station Khetri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7891388,
+          27.9981357
+        ]
+      },
+      "id": "node/8836385684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8886853342",
+        "addr:city": "gangapur city",
+        "amenity": "police",
+        "description": "police station",
+        "ele": "56",
+        "name": "Police station , Mahukalan",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7304745,
+          26.4675305
+        ]
+      },
+      "id": "node/8886853342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8892018965",
+        "amenity": "police",
+        "name": "Masalpur Police Station",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2312099,
+          26.6350934
+        ]
+      },
+      "id": "node/8892018965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8892840576",
+        "amenity": "police",
+        "name": "police chuki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1014686,
+          26.5525359
+        ]
+      },
+      "id": "node/8892840576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8892873000",
+        "amenity": "police",
+        "name": "police chuki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0213799,
+          26.5142829
+        ]
+      },
+      "id": "node/8892873000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8911327218",
+        "amenity": "police",
+        "name": "Police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2814106,
+          27.8933251
+        ]
+      },
+      "id": "node/8911327218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8917349896",
+        "amenity": "police",
+        "name": "Police Station Udhyog Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.1546343,
+          27.6217341
+        ]
+      },
+      "id": "node/8917349896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8985323158",
+        "amenity": "police",
+        "check_date": "2026-03-22",
+        "name": "Bharat Nagar Police station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.178135,
+          28.6807121
+        ]
+      },
+      "id": "node/8985323158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9659078217",
+        "amenity": "police",
+        "name": "Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3845655,
+          28.5289358
+        ]
+      },
+      "id": "node/9659078217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9681610048",
+        "amenity": "police",
+        "name": "Sector 18 Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0660455,
+          28.487675
+        ]
+      },
+      "id": "node/9681610048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9876541717",
+        "amenity": "police",
+        "name": "Anantpura police station",
+        "name:en": "Police station Anantpura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8570258,
+          25.1223866
+        ]
+      },
+      "id": "node/9876541717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9892802844",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2301987,
+          27.3804979
+        ]
+      },
+      "id": "node/9892802844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10248417356",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3206001,
+          26.1047936
+        ]
+      },
+      "id": "node/10248417356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10554368729",
+        "addr:city": "Jaipur",
+        "addr:state": "Rajasthan",
+        "amenity": "police",
+        "name": "Bajaj Nagar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7996764,
+          26.8776453
+        ]
+      },
+      "id": "node/10554368729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10603883007",
+        "amenity": "police",
+        "name": "Women Facilitation Booth",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "police": "offices"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1699161,
+          28.7283053
+        ]
+      },
+      "id": "node/10603883007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10767521689",
+        "amenity": "police",
+        "name": "Dhumchakkar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.0119933,
+          28.087952
+        ]
+      },
+      "id": "node/10767521689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10778055208",
+        "amenity": "police",
+        "name": "Police Post, Khan Market",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2262488,
+          28.6003274
+        ]
+      },
+      "id": "node/10778055208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10781607598",
+        "amenity": "police",
+        "name": "Police Station, DLF Phase 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0910642,
+          28.4873346
+        ]
+      },
+      "id": "node/10781607598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10855775833",
+        "amenity": "police",
+        "check_date": "2023-04-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6895725,
+          27.3872891
+        ]
+      },
+      "id": "node/10855775833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10864790310",
+        "amenity": "police",
+        "check_date": "2023-04-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2887115,
+          28.256319
+        ]
+      },
+      "id": "node/10864790310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10864790317",
+        "amenity": "police",
+        "check_date": "2023-04-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2875674,
+          28.2669713
+        ]
+      },
+      "id": "node/10864790317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10869883005",
+        "amenity": "police",
+        "name": "No entry for foreigners going towards the government buildings",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2093428,
+          28.6153345
+        ]
+      },
+      "id": "node/10869883005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10869921208",
+        "amenity": "police",
+        "name": "Gate 35, No entry for foreigners",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1985707,
+          28.6176525
+        ]
+      },
+      "id": "node/10869921208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10869921306",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2020072,
+          28.617356
+        ]
+      },
+      "id": "node/10869921306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10880690826",
+        "amenity": "police",
+        "name": "POLICE CHOWLI SIKANDARAPUR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3392139,
+          28.6949996
+        ]
+      },
+      "id": "node/10880690826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10899269972",
+        "amenity": "police",
+        "name": "Mahila Thana East Gandhinagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8042117,
+          26.8815478
+        ]
+      },
+      "id": "node/10899269972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10899922752",
+        "addr:city": "Dalpura",
+        "addr:housenumber": "v - Dalpura , th - Nadoti , Rajasthan",
+        "addr:postcode": "322215",
+        "addr:street": "on Rad Bamabnvas",
+        "amenity": "police",
+        "name": "Police station Dalpura",
+        "opening_hours": "24/7",
+        "polling_station": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6393893,
+          26.7417261
+        ]
+      },
+      "id": "node/10899922752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10904526570",
+        "addr:city": "New Delhi",
+        "addr:postcode": "110022",
+        "addr:street": "Venkateshwara Marg",
+        "amenity": "police",
+        "name": "Traffic Police Station, RK Puram, Sector-4",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1811399,
+          28.560194
+        ]
+      },
+      "id": "node/10904526570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10908515322",
+        "amenity": "police",
+        "name": "Delhi Police Post (Babarpur)",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2787079,
+          28.6892958
+        ]
+      },
+      "id": "node/10908515322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10914007064",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "police": "booth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1627448,
+          28.7541865
+        ]
+      },
+      "id": "node/10914007064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10916618084",
+        "amenity": "police",
+        "name": "Police Station Sushant Lok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.080971,
+          28.460703
+        ]
+      },
+      "id": "node/10916618084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10957783279",
+        "amenity": "police",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9155032,
+          28.8790014
+        ]
+      },
+      "id": "node/10957783279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10957783280",
+        "amenity": "police",
+        "name": "Old Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9148593,
+          28.87879
+        ]
+      },
+      "id": "node/10957783280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11075045128",
+        "amenity": "police",
+        "name": "Railway Police Force Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2188823,
+          28.6452469
+        ]
+      },
+      "id": "node/11075045128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11097129910",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2774333,
+          28.6304085
+        ]
+      },
+      "id": "node/11097129910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11104463685",
+        "amenity": "police",
+        "name": "Pratapgarh Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1643237,
+          27.2529331
+        ]
+      },
+      "id": "node/11104463685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11204948058",
+        "amenity": "police",
+        "name": "Police Station Barakhamba Road",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2253541,
+          28.6308823
+        ]
+      },
+      "id": "node/11204948058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212294876",
+        "amenity": "police",
+        "name": "Police station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3163336,
+          28.5006344
+        ]
+      },
+      "id": "node/11212294876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11220187302",
+        "amenity": "police",
+        "name": "All Women police assistance booth",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2507374,
+          28.549942
+        ]
+      },
+      "id": "node/11220187302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11223339246",
+        "addr:housenumber": "7",
+        "addr:postcode": "110001",
+        "addr:street": "Sikandra Road",
+        "amenity": "police",
+        "name": "DCP Residence",
+        "name:en": "DCP Residence",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.232869,
+          28.6274655
+        ]
+      },
+      "id": "node/11223339246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11276492167",
+        "amenity": "police",
+        "check_date": "2023-10-19",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Police check point",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2877917,
+          28.5617873
+        ]
+      },
+      "id": "node/11276492167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11559262683",
+        "amenity": "police",
+        "name": "Police assistance booth",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2273752,
+          28.6012604
+        ]
+      },
+      "id": "node/11559262683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11637350872",
+        "amenity": "police",
+        "name": "Gandhi Nagar Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2671907,
+          28.6599766
+        ]
+      },
+      "id": "node/11637350872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11687998176",
+        "addr:city": "Gangapur City",
+        "addr:district": "Gangapur City",
+        "addr:postcode": "322201",
+        "amenity": "police",
+        "name": "kotwali Police Station",
+        "opening_hours": "24/7",
+        "operator": "Government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7269456,
+          26.4723763
+        ]
+      },
+      "id": "node/11687998176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11690968661",
+        "amenity": "police",
+        "name": "District Police Line Bhiwani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1211491,
+          28.8221987
+        ]
+      },
+      "id": "node/11690968661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11691150271",
+        "amenity": "police",
+        "name": "SP Office Jhunjhunu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.3849148,
+          28.1145867
+        ]
+      },
+      "id": "node/11691150271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11691749049",
+        "amenity": "police",
+        "name": "Police Chowki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.3848609,
+          28.1169839
+        ]
+      },
+      "id": "node/11691749049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11694522604",
+        "amenity": "police",
+        "name": "Kamla Nagar Police Choki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0173652,
+          27.2117331
+        ]
+      },
+      "id": "node/11694522604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11696983714",
+        "amenity": "police",
+        "name": "Kardhani Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7119204,
+          26.953527
+        ]
+      },
+      "id": "node/11696983714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11697239847",
+        "addr:city": "Narnaul",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1120646,
+          28.0503034
+        ]
+      },
+      "id": "node/11697239847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11697245172",
+        "addr:city": "narnaul",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1080296,
+          28.074473
+        ]
+      },
+      "id": "node/11697245172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11697862879",
+        "amenity": "police",
+        "name": "Mahendragarh Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1479836,
+          28.2720008
+        ]
+      },
+      "id": "node/11697862879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11698384649",
+        "amenity": "police",
+        "name": "GOVIND NAGAR STATION"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6707866,
+          27.5096823
+        ]
+      },
+      "id": "node/11698384649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11721654369",
+        "amenity": "police",
+        "name": "Police Station Kotwali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.1514973,
+          27.6133065
+        ]
+      },
+      "id": "node/11721654369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11792933573",
+        "amenity": "police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1683104,
+          28.5956693
+        ]
+      },
+      "id": "node/11792933573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11802071662",
+        "amenity": "police",
+        "check_date": "2026-03-20",
+        "name": "Bara Hindu Rao Police Station",
+        "name:hi": "बारा हिंदू राव थाना",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2080538,
+          28.6657245
+        ]
+      },
+      "id": "node/11802071662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11802099070",
+        "amenity": "police",
+        "name": "Sabzi Mandi Police Station",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2073279,
+          28.6689322
+        ]
+      },
+      "id": "node/11802099070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11802099071",
+        "amenity": "police",
+        "name": "Crime Against Women Cell",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2073751,
+          28.6694195
+        ]
+      },
+      "id": "node/11802099071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11873060516",
+        "amenity": "police",
+        "name": "Police Chauki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0053949,
+          28.401589
+        ]
+      },
+      "id": "node/11873060516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11934281372",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2849399,
+          28.4610831
+        ]
+      },
+      "id": "node/11934281372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11949219743",
+        "amenity": "police",
+        "check_date": "2024-05-26",
+        "name": "Delhi Police — Mehrauli",
+        "name:en": "Delhi Police — Mehrauli",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "polling_station": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1779413,
+          28.5262044
+        ]
+      },
+      "id": "node/11949219743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11951522168",
+        "amenity": "police",
+        "name": "Keshavpur Sabzi Mandi",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "toilets": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0881006,
+          28.6515928
+        ]
+      },
+      "id": "node/11951522168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11959823423",
+        "amenity": "police",
+        "name": "Police Station Mandawali",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3061809,
+          28.6250464
+        ]
+      },
+      "id": "node/11959823423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11959842021",
+        "amenity": "police",
+        "name": "Police Station Madhu Vihar",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3062871,
+          28.6250657
+        ]
+      },
+      "id": "node/11959842021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11989736451",
+        "amenity": "police",
+        "name": "Pink Booth",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "toilets": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1332471,
+          28.5966453
+        ]
+      },
+      "id": "node/11989736451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12028883564",
+        "amenity": "police",
+        "name": "Facilitation Kiosk",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "toilets": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1973707,
+          28.5758546
+        ]
+      },
+      "id": "node/12028883564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12030756373",
+        "amenity": "police",
+        "name": "Police Booth",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.195241,
+          28.5757026
+        ]
+      },
+      "id": "node/12030756373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12098409831",
+        "amenity": "police",
+        "check_date": "2026-03-14",
+        "name": "Prepaid Auto Service",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.219012,
+          28.6316262
+        ]
+      },
+      "id": "node/12098409831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12149437904",
+        "addr:city": "Sukhpuria",
+        "addr:district": "Jaipur",
+        "addr:housenumber": "2",
+        "addr:postcode": "302033",
+        "addr:street": "Tonk Road",
+        "amenity": "police",
+        "name": "Sanganer Sadar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8225385,
+          26.7834733
+        ]
+      },
+      "id": "node/12149437904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12205080014",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8356543,
+          28.0963652
+        ]
+      },
+      "id": "node/12205080014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12237600451",
+        "amenity": "police",
+        "check_date": "2026-03-20",
+        "name": "Tourist Police Booth",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926",
+        "toilets": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2182954,
+          28.6420284
+        ]
+      },
+      "id": "node/12237600451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12351360511",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0413432,
+          27.168983
+        ]
+      },
+      "id": "node/12351360511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12352516057",
+        "amenity": "police",
+        "check_date": "2024-11-19",
+        "name": "Delhi Police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3161693,
+          28.6487676
+        ]
+      },
+      "id": "node/12352516057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12352750273",
+        "amenity": "police",
+        "check_date": "2024-11-19",
+        "name": "G.R.P Police Station Anand Vihar",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.314937,
+          28.6480027
+        ]
+      },
+      "id": "node/12352750273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12397835719",
+        "amenity": "police",
+        "check_date": "2024-12-05",
+        "name": "Police Station Rithala Metro",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1077634,
+          28.7198672
+        ]
+      },
+      "id": "node/12397835719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12441175891",
+        "amenity": "police",
+        "check_date": "2024-12-22",
+        "name": "Office Of The Deputy Commissioner Of Police Central District",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2409554,
+          28.6415133
+        ]
+      },
+      "id": "node/12441175891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12592616012",
+        "addr:postcode": "110006",
+        "amenity": "police",
+        "check_date": "2025-02-16",
+        "name": "Delhi Police",
+        "name:en": "Delhi Police",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2265741,
+          28.6494703
+        ]
+      },
+      "id": "node/12592616012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12593113338",
+        "amenity": "police",
+        "name": "police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0077186,
+          27.1532943
+        ]
+      },
+      "id": "node/12593113338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596133536",
+        "amenity": "police",
+        "name": "police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0077136,
+          27.1331573
+        ]
+      },
+      "id": "node/12596133536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596136864",
+        "amenity": "police",
+        "name": "New Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1070082,
+          28.0572374
+        ]
+      },
+      "id": "node/12596136864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596150460",
+        "amenity": "police",
+        "name": "karan gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3582814,
+          28.6885469
+        ]
+      },
+      "id": "node/12596150460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596150465",
+        "amenity": "police",
+        "name": "shalimar garden police chowki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3404923,
+          28.6883392
+        ]
+      },
+      "id": "node/12596150465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596195678",
+        "amenity": "police",
+        "name": "पुलिस चौकी खेजरोली"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6970555,
+          27.3418081
+        ]
+      },
+      "id": "node/12596195678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596321229",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7340042,
+          26.4828563
+        ]
+      },
+      "id": "node/12596321229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596380122",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7318694,
+          26.500573
+        ]
+      },
+      "id": "node/12596380122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596382943",
+        "amenity": "police",
+        "name": "DCP Shahdara District Office",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2867347,
+          28.6653684
+        ]
+      },
+      "id": "node/12596382943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596574171",
+        "amenity": "police",
+        "name": "Delhi Police Dog Squad",
+        "note": "Contributors are requested to not edit the \"operator\", \"operator:en\", \"operator:hi\", \"operator:ur\" and \"operator:wikidata\" tags. (2025/02/18)",
+        "operator": "Delhi Police",
+        "operator:en": "Delhi Police",
+        "operator:hi": "दिल्ली पुलिस",
+        "operator:ur": "دہلی پولیس",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.298339,
+          28.6554103
+        ]
+      },
+      "id": "node/12596574171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12598777428",
+        "amenity": "police",
+        "name": "police station shahpura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.9067301,
+          25.6101756
+        ]
+      },
+      "id": "node/12598777428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12602385062",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.9262558,
+          25.6264023
+        ]
+      },
+      "id": "node/12602385062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12645361692",
+        "addr:city": "Agra,Uttar Pradesh",
+        "addr:district": "Agra",
+        "addr:postcode": "282001",
+        "addr:street": "Shamsabad Road",
+        "amenity": "police",
+        "name": "Saheed Nagar Police Station",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0373571,
+          27.1486681
+        ]
+      },
+      "id": "node/12645361692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12647182937",
+        "amenity": "police",
+        "operator": "Delhi Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0417182,
+          28.591667
+        ]
+      },
+      "id": "node/12647182937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12676184098",
+        "amenity": "police",
+        "name": "Integrated Facilitation Booth",
+        "opening_hours": "09:00-17:00",
+        "operator": "Delhi Police",
+        "toilets": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1269382,
+          28.6050112
+        ]
+      },
+      "id": "node/12676184098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12678192778",
+        "amenity": "police",
+        "name": "Integrated Facilitation Booth",
+        "operator": "Delhi Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1691272,
+          28.5892018
+        ]
+      },
+      "id": "node/12678192778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12719337817",
+        "amenity": "police",
+        "check_date": "2025-03-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6759541,
+          27.571634
+        ]
+      },
+      "id": "node/12719337817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12749054818",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0179479,
+          27.1857931
+        ]
+      },
+      "id": "node/12749054818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12787777886",
+        "amenity": "police",
+        "name": "South Campus Police Station",
+        "operator": "Delhi Police",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1760286,
+          28.5796397
+        ]
+      },
+      "id": "node/12787777886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12800053826",
+        "amenity": "police",
+        "name": "Kailash Colony Market Integrated Facilitation Booth",
+        "opening_hours": "15:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2411483,
+          28.5528334
+        ]
+      },
+      "id": "node/12800053826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12801629398",
+        "amenity": "police",
+        "description": "A small police booth for E-Block, East of Kailash."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2442795,
+          28.5588883
+        ]
+      },
+      "id": "node/12801629398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12809408610",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2342725,
+          28.5724533
+        ]
+      },
+      "id": "node/12809408610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12861895296",
+        "amenity": "police",
+        "name": "Welcome Metro Station Integrated Facilitation Booth",
+        "operator": "Delhi Police",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2761129,
+          28.6725287
+        ]
+      },
+      "id": "node/12861895296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12865040843",
+        "amenity": "police",
+        "name": "Swami Dayanand Hospital Police Booth",
+        "operator": "Delhi Police",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3032989,
+          28.6778818
+        ]
+      },
+      "id": "node/12865040843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12942210113",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2140888,
+          28.4989184
+        ]
+      },
+      "id": "node/12942210113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13042692772",
+        "amenity": "police",
+        "name": "Integrated police booth, Model Town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1798446,
+          28.7074219
+        ]
+      },
+      "id": "node/13042692772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13059709520",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2917074,
+          28.5356392
+        ]
+      },
+      "id": "node/13059709520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13070389741",
+        "amenity": "police",
+        "name": "Police Station Pandav Nagar",
+        "operator": "Delhi Police",
+        "operator:wikidata": "Q3764926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3027366,
+          28.6201262
+        ]
+      },
+      "id": "node/13070389741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13146724912",
+        "amenity": "police",
+        "check_date": "2025-09-16",
+        "name": "Bharola Police Post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1705927,
+          28.7159166
+        ]
+      },
+      "id": "node/13146724912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13146724917",
+        "amenity": "police",
+        "check_date": "2025-09-16",
+        "name": "Integrated Police Booth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1649585,
+          28.7225762
+        ]
+      },
+      "id": "node/13146724917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13201813044",
+        "amenity": "police",
+        "name": "Kotla Mubarakpur Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2251127,
+          28.5759348
+        ]
+      },
+      "id": "node/13201813044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13230731602",
+        "amenity": "police",
+        "name": "Jaitpur Thana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3193324,
+          28.5037996
+        ]
+      },
+      "id": "node/13230731602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13246779351",
+        "amenity": "police",
+        "name": "Assistant Comissioner of Police DLF Subdivision Gurugram",
+        "police": "offices"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0954743,
+          28.4513374
+        ]
+      },
+      "id": "node/13246779351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13246779352",
+        "amenity": "police",
+        "name": "Assistant Comissioner of Police Cyber Crime Gurugram",
+        "police": "offices"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0954882,
+          28.4513903
+        ]
+      },
+      "id": "node/13246779352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13271964697",
+        "amenity": "police",
+        "check_date": "2025-10-31",
+        "name": "Kasaba Police Station",
+        "name:en": "Kasaba Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5520727,
+          26.4920492
+        ]
+      },
+      "id": "node/13271964697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13333727901",
+        "addr:postcode": "302013",
+        "amenity": "police",
+        "name": "Police chowki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.797715,
+          27.0078424
+        ]
+      },
+      "id": "node/13333727901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13335891301",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1268184,
+          28.7181571
+        ]
+      },
+      "id": "node/13335891301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13410640338",
+        "amenity": "police",
+        "name": "Adarsh Nagar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1752464,
+          28.7098594
+        ]
+      },
+      "id": "node/13410640338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13418974240",
+        "amenity": "police",
+        "name": "Madhav Jang Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1449877,
+          26.1926439
+        ]
+      },
+      "id": "node/13418974240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13472563750",
+        "amenity": "police",
+        "name": "Delhi Police Headquarters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.212071,
+          28.6253997
+        ]
+      },
+      "id": "node/13472563750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13514326623",
+        "amenity": "police",
+        "name": "Civil Lines Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2215343,
+          28.6890673
+        ]
+      },
+      "id": "node/13514326623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13516692301",
+        "amenity": "police",
+        "building": "guardhouse",
+        "name": "Metro Walk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1111954,
+          28.721911
+        ]
+      },
+      "id": "node/13516692301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13536444801",
+        "addr:postcode": "110091",
+        "amenity": "police",
+        "name": "CYBER POLICE STATION, EAST DISTRICT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3098433,
+          28.6129295
+        ]
+      },
+      "id": "node/13536444801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13566119052",
+        "amenity": "police",
+        "name": "Police Booth Model Town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1905813,
+          28.7062721
+        ]
+      },
+      "id": "node/13566119052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13568774327",
+        "amenity": "police",
+        "detention": "no",
+        "name": "Integrated Facilitation Booth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2096762,
+          28.573737
+        ]
+      },
+      "id": "node/13568774327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13594808142",
+        "amenity": "police",
+        "name": "Police Station Rani Bagh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1192353,
+          28.697606
+        ]
+      },
+      "id": "node/13594808142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13595492907",
+        "amenity": "police",
+        "name": "Integrated Police Facility"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2207078,
+          28.5682785
+        ]
+      },
+      "id": "node/13595492907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13640908020",
+        "amenity": "police",
+        "check_date": "2026-03-14",
+        "level": "-1",
+        "name": "Public Facilitation Booth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2195152,
+          28.6331466
+        ]
+      },
+      "id": "node/13640908020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13644854468",
+        "amenity": "police",
+        "name": "Moti Nagar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1467439,
+          28.6604512
+        ]
+      },
+      "id": "node/13644854468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13647468660",
+        "amenity": "police",
+        "name": "Suvidha Seva",
+        "note": "Original name in Hindi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2090211,
+          28.5732388
+        ]
+      },
+      "id": "node/13647468660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13677018516",
+        "amenity": "police",
+        "name": "Mayapuri Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1215572,
+          28.6267109
+        ]
+      },
+      "id": "node/13677018516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13726811986",
+        "amenity": "police",
+        "name": "Police Post ISBT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2323235,
+          28.6694198
+        ]
+      },
+      "id": "node/13726811986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13835547209",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3237677,
+          28.5669719
+        ]
+      },
+      "id": "node/13835547209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13886768814",
+        "amenity": "police",
+        "name": "Police Chowki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.078729,
+          28.3594774
+        ]
+      },
+      "id": "node/13886768814"
+    }
+  ]
+}
